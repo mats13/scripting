@@ -1,0 +1,6 @@
+ exercice 1/
+ cat tab.txt | awk '{print $1" sep "$2}'
+
+exercice 2/ on précise le séparateur dans rencontré dans le fichier
+cat csv.txt | awk -F ";" '{print $1" sep "$2}'
+
