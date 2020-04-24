@@ -1,4 +1,4 @@
-Exercice 1/ Afficher une entête, les lignes mises en forme + le nombre de caractères du prénom, ainsi qu'un footer avec le nbre de lignes:
+auf la ligne contenant  "xavier")xercice 1/ Afficher une entête, les lignes mises en forme + le nombre de caractères du prénom, ainsi qu'un footer avec le nbre de lignes:
 
 cat myfile.txt | awk 'BEGIN {print "\n\nListe des gens :"} !/xavier/ {print "Prénom :"$2" - Ville :  "$3" + Longueur prénom : "length($2)} END {print "\nNbre de lignes parcourues : "NR"\n"}'
 
