@@ -1,0 +1,10 @@
+Exercice 1/ Afficher devant chaque ligne le numéro de ligne Lign Row
+cat tab1.txt  | awk '{print NR" => "$0 }'
+
+
+Exercice 2/ Le nombre de champs NF Number of Fields
+cat tab1.txt  | awk '{print NF" => "$0 }'
+
+Exercice 3/ Toutes lignes et à la fin, le nombre de lignes
+cat tab1.txt  | awk '{print $0}END {print "Nombre de lignes: "NR}'
+
