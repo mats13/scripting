@@ -1,0 +1,4 @@
+exercice 1/ remplacer dans le prénom ier par ki. Le séparateur entre deux commandes est ";". Afficher le fichier entier.
+
+cat myfile.txt | awk '{gsub("ier","ki",$2);print $0}'
+
