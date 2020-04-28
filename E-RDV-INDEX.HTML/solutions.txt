@@ -1,0 +1,4 @@
+index.html | awk '/^.*<\/head>$/ {gsub(/></, ">toto<", $0); print $0}'
+
+cat index.html | awk 'BEGIN {var_toto = ">toto<"; var_pattern = "head" } /^.*<\/head>$/ {gsub(/></, var_toto, $0); print $0}'
+

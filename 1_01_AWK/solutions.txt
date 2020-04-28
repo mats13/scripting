@@ -1,3 +1,6 @@
+ Pour lancer le script awk dans un fichier
+ > ./script.awk
+ 
  exercice 1/
  cat tab.txt | awk '{print $1" sep "$2}'
 
